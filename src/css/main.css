@@ -50,3 +50,22 @@ line-height: 1.3125;
     text-align: left;
 }   
 }
+/* About the Game */
+.about-section{
+background: #633452;
+}
+.about-title{
+color: #fff;
+}
+.about-text-wrapper{
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 20px;  
+color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+.about-text-wrapper{
+gap: 40px;  
+}    
+}
