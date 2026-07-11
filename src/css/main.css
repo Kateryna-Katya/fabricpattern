@@ -1,0 +1,52 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.home-wrapper{
+    margin-top: 56px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+}
+.home-title{
+font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.33333;
+    text-align: center;
+    color: #010101;
+}
+.home-text{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+ .home-container{
+    flex-direction: row;
+    gap: 64px;
+    padding-bottom: 164px;
+}
+.home-wrapper{
+    margin-top: 0;
+    width: 892px;
+        align-items: start;
+        gap: 40px;
+}
+.home-title{
+font-size: 60px;
+line-height: 1.25;
+text-align: left;
+}
+.home-text{
+font-weight: 500;
+font-size: 32px;
+line-height: 1.3125;
+    text-align: left;
+}   
+}
