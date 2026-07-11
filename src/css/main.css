@@ -1,3 +1,6 @@
+.home-section{
+background: #f7c1c8;
+}
 .home-container{
     display: flex;
     flex-direction: column;
@@ -51,9 +54,6 @@ line-height: 1.3125;
 }   
 }
 /* About the Game */
-.about-section{
-background: #633452;
-}
 .about-title{
 color: #fff;
 }
@@ -70,6 +70,9 @@ gap: 40px;
 }    
 }
 /* How to Play */
+.how-section {
+    background: #f7c1c8;
+}
 .how-container{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -111,6 +114,66 @@ align-items: center;
 display: flex;
     flex-direction: column;
     align-items: center;
-
+}    
+}
+/* Core Elements */
+.core-title{
+    margin-bottom: 0;
+    color: #fff;
+}
+.core-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.core-text{
+color: #fff;
+text-align: center;
+}
+.core-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
+}
+.core-item{
+border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 20px;
+    width: 327px;
+    height: auto;
+box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+.core-item-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.core-item-text{
+    font-size: 16px;
+    line-height: 1.25;
+}
+@media only screen and (min-width: 1440px) {
+.core-wrapper{
+    gap: 40px;
+}
+.core-list{
+    gap: 40px;  
+    align-items: center;  
+}
+.core-item{
+padding: 24px 23px;
+width: 1174px;
+}
+.core-item-title{
+font-weight: 500;
+    font-size: 32px;
+line-height: 1.3125;
+text-align: left;
+}
+.core-item-text{
+font-size: 24px;
 }    
 }
