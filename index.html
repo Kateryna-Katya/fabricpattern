@@ -2,58 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/fabricpattern/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Vanilla App Template</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+    <title>Inner Weave</title>
     <script type="module" crossorigin src="/fabricpattern/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/fabricpattern/assets/styles-B1cAClkr.css">
+    <link rel="stylesheet" crossorigin href="/fabricpattern/assets/styles-DOO0tVR_.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section">
+    <div class="container home-container">
+<div class="home-wrapper">
+    <h1 class="home-title">Feel the Moment.</h1>
+    <p class="home-text">No rush. Just you and the flow.</p>
+</div>
+<picture>
+    <source srcset="/fabricpattern/assets/desk-pHtkPn-i.png 1x, /fabricpattern/assets/desk@2x-CIZ-mSY1.png 2x" media="(min-width: 1439px)" />
+    <source srcset="/fabricpattern/assets/mob-uJHF9Pa2.png 1x, /fabricpattern/assets/mob@2x-DZoJUEMv.png 2x" media="(max-width: 1438px)" />
+    <img src="/fabricpattern/assets/mob-uJHF9Pa2.png" alt="Inner Weave" loading="lazy" />
+</picture>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
