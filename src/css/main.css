@@ -380,5 +380,72 @@ font-weight: 500;
     font-size: 20px;
     line-height: 1.6;
 }
-
+}
+/* Contact */
+.contact-wrapper{
+border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    padding: 20px 10px;
+    width: 327px;
+    height: 274px;
+box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.1), 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    background: #f7c1c8;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;   
+}
+.mail-img{
+width: 64px;
+    height: 64px;
+}
+.contact-title{
+    margin-bottom: 0;
+}
+.contact-link{
+border-radius: 33554400px;
+    width: 307px;
+    height: 54px;
+box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background: #633452;
+font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.33333;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 40px;
+    gap: 12px;
+}
+.contact-link p{
+width: 192px;
+text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.contact-wrapper{
+padding: 64px 105px;
+    width: 896px;
+    height: 461px;
+    margin-left: auto;
+    margin-right: auto;
+ gap: 32px;   
+}
+.mail-img{
+width: 80px;
+    height: 80px;
+}
+.contact-link{
+border-radius: 24px;
+    width: 358px;
+    height: 68px;
+    font-size: 18px;
+    padding: 20px 40px;
+    gap: 9px;
+}
+.contact-link p{
+width: 251px;
+}    
 }
