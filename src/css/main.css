@@ -242,3 +242,33 @@ line-height: 1.3125;
 font-size: 24px;
 }    
 }
+/* Player Benefits */
+.benefits-section{
+background: #f7c1c8;
+}
+.benefits-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.benefits-list{
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+.benefits-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.benefits-container p{
+    text-align: center;
+}
+.benefits-list{
+    margin-top: 40px;
+    gap: 40px;
+}    
+}
