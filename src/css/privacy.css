@@ -1,0 +1,94 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+
+
+
+.background {
+    background: #fff;
+    text-align: left;
+    color: #000;
+    line-height: normal;
+}
+
+.privacy-title {
+font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.33333;
+    color: #010101;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+font-weight: 600;
+font-size: 16px;
+}
+.policy-container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media only screen and (min-width: 1439px) {
+    .privacy-title {
+font-size: 50px;
+    }
+
+    .policy-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+.background{
+font-size: 24px;
+}
+.policy-subtitle {
+font-size: 26px;
+}
+.policy-span {
+font-size: 26px;
+}
+}
