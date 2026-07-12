@@ -34,6 +34,7 @@ font-family: "Manrope", sans-serif;
     flex-direction: row;
     gap: 64px;
     padding-bottom: 164px;
+    padding-top: 140px;
 }
 .home-wrapper{
     margin-top: 0;
